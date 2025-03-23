@@ -1,0 +1,8 @@
+app.get("/api/v1/tasks",(req,res)=>res.send("Task Manager"));
+app.post("/api/v1/tasks",(req,res)=>res.send("Task Manager"));
+app.get("/api/v1/tasks/:id",(req,res)=>res.send("Task Manager"));
+app.patch("/api/v1/tasks/:id",(req,res)=>res.send("Task Manager"));
+app.delete("/api/v1/tasks/:id",(req,res)=>res.send("Task Manager")); 
+
+password - V4JidErR6556K6gA
+
